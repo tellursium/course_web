@@ -37,12 +37,12 @@ class Package extends React.Component{
                     <table className="PackageBlock">
                         <tbody>
                             <tr>
-                                <th className="Package">Git Clone URL:</th>
-                                <td>{this.state.pkg.link}</td>
+                                <th className="Package"><a href={"/package/" + this.state.pkg.id}>Name</a></th>
+                                <td>{this.state.pkg.name}</td>
                             </tr>
                             <tr>
-                                <th className="Package"><a href={"/package/" + this.state.pkg.id}>Base</a></th>
-                                <td>{this.state.pkg.name}</td>
+                                <th className="Package">npm command:</th>
+                                <td>npm install {this.state.pkg.link}</td>
                             </tr>
                             <tr>
                                 <th className="Package">Description</th>
