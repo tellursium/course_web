@@ -1,0 +1,27 @@
+.butt {
+    height: 50px;
+    width: 150px;
+}
+
+.CreatePackage{
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputCreate {
+    width: 400px;
+    margin: 50px;
+    background-color: #dbdbdb;
+}
+
+::placeholder {
+    color: #343434;
+    font-size: 1.3em;
+}
+
+Button {
+    width: 400px;
+    margin: 10px;
+}

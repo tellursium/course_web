@@ -1,0 +1,21 @@
+.Block{
+    padding: 10px;
+    border: #6f6f6f 2px solid;
+    margin: 10px;
+}
+
+p.textBlock {
+    color: #868686;
+}
+
+h1.textBlock{
+    color: #bbbbbb;
+}
+
+li.textBlock{
+    color: #bbbbbb;
+}
+
+h3.textBlock{
+    color: #e2e2e2;
+}

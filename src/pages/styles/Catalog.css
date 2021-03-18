@@ -1,0 +1,52 @@
+
+table.catalog {
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.catalog {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+td {
+    color: #b6b6b6;
+    height: 30px;
+    cursor: pointer;
+}
+
+th {
+    color: #e0e0e0;
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background-color: #4e4e4e;
+}
+
+.colVers {
+    width: 10%;
+}
+
+.colName {
+    width: 20%;
+}
+
+.colDesc {
+    width: 60%;
+}
+
+.colNum {
+    width: 10%;
+}
+
+tr.odd {
+    background-color: #181a1b;
+}
+
+.inputSearch {
+    width: 40%;
+    margin-left: 30%;
+}

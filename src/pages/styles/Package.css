@@ -1,0 +1,14 @@
+.PackageBlock {
+    width: 90%;
+    border: #535555 1px solid;
+    margin-left: 4%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 92%;
+    color: #D3CFC9;
+    text-align: left;
+}
+
+th.Package {
+    width: 20%;
+}
